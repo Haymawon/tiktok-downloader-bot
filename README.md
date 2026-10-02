@@ -140,5 +140,5 @@ Paste your token from BotFather.
 
 If you forget this step, the bot exits immediately with `BOT_TOKEN is missing from .env / environment`. That's intentional; a bot without a token has nothing to do.
 
-#LICENSE
+# LICENSE
 AGPL-3.0
