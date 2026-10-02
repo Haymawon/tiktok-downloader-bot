@@ -23,7 +23,18 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-
+### If you are using Fish shell
+```bash
+source .venv/bin/activate.fish
+```
+### Alternative 1
+```bash
+. .venv/bin/activate.fish
+```
+### Alternative 2 (if you just want python/pip from the venv without sourcing script)
+```bash
+fish_add_path .venv/bin
+```
 ### Debian / Ubuntu / Mint / Pop!_OS
 
 ```bash
